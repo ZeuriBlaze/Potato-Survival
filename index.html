@@ -1,6 +1,6 @@
 function doGet() {
   return HtmlService.createHtmlOutput(POTATO_HTML)
-    .setTitle('Potato Survival v1.9');
+    .setTitle('Potato Survival');
 }
 
 function saveRun(json) {
@@ -128,7 +128,7 @@ input:focus{outline:2px solid #a8d9bc}
 <div id="loading"><div class="panel"><h1>🥔 Loading arena</h1><p id="loadText">Preparing map...</p><div class="track"><div id="bar"></div></div></div></div>
 <div id="menu"><div class="menuWrap">
 <div class="badge">ENDLESS ENEMIES • CHALLENGES • ACHIEVEMENTS</div>
-<div class="heroPotato">🥔</div><h1 class="heroTitle">POTATO SURVIVAL v1.9</h1>
+<div class="heroPotato">🥔</div><h1 class="heroTitle">Potato Survival</h1>
 <p class="heroSub">One potato. Endless enemies.<br>Build your upgrades and survive the next challenge.</p>
 <div class="menuGrid">
 <section class="menuPanel"><h2>⚔ Choose your arena</h2><div id="mapCards" class="maps"></div>
@@ -163,7 +163,7 @@ input:focus{outline:2px solid #a8d9bc}
 <p class="note">WASD / arrows: move • P / Escape: pause • Arenas: 1,600 × 1,000</p>
 </div></div>
 <div id="gameArea" hidden>
-<h2>🥔 Potato Survival v1.9</h2><div id="hud"></div>
+<h2>🥔 Potato Survival</h2><div id="hud"></div>
 <button id="pause" onclick="togglePause()">⏸ Pause</button><button id="saveButton" onclick="saveGame()">💾 Save code</button>
 <button id="downloadButton" onclick="downloadSave()">📂 Download save file</button><button onclick="leaveGame()">Main menu</button>
 <p id="unlockNotice" role="status"></p><div id="saveBox" class="panel" hidden><p id="saveStatus" role="status"></p>
@@ -1004,7 +1004,7 @@ wave=1;kills=0;coins=rewardBank;`
   );
 
   return HtmlService.createHtmlOutput(html)
-    .setTitle('Potato Survival v1.9');
+    .setTitle('Potato Survival');
 }
 // Append this AFTER all existing code.
 const upgradeCollectionPreviousDoGet = doGet;
@@ -1335,7 +1335,7 @@ doGet = function () {
   );
 
   return HtmlService.createHtmlOutput(html)
-    .setTitle('Potato Survival v1.9');
+    .setTitle('Potato Survival');
 };
 const starterCodePreviousDoGet = doGet;
 
@@ -1500,7 +1500,7 @@ doGet = function () {
       '</body>',
       starterScript + '</body>'
     )
-  ).setTitle('Potato Survival v1.9');
+  ).setTitle('Potato Survival');
 };
 const blessedExpansionPreviousDoGet = doGet;
 
@@ -2386,7 +2386,7 @@ doGet = function () {
   html = html.replace('</body>', expansion + '</body>');
 
   return HtmlService.createHtmlOutput(html)
-    .setTitle('Potato Survival v1.9');
+    .setTitle('Potato Survival');
 };
 const luckCapPreviousDoGet = doGet;
 
@@ -2499,7 +2499,7 @@ doGet = function () {
       '</body>',
       luckCapScript + '</body>'
     )
-  ).setTitle('Potato Survival v1.9');
+  ).setTitle('Potato Survival');
 };
 const statLimitsPreviousDoGet = doGet;
 
@@ -2774,7 +2774,7 @@ doGet = function () {
       '</body>',
       rarityChanges + '</body>'
     )
-  ).setTitle('Potato Survival v1.9');
+  ).setTitle('Potato Survival');
 };
 const holdingGemRequirementPreviousDoGet = doGet;
 
@@ -2786,7 +2786,7 @@ doGet = function () {
     .replaceAll('600,000', '1,000,000');
 
   return HtmlService.createHtmlOutput(html)
-    .setTitle('Potato Survival v1.9');
+    .setTitle('Potato Survival');
 };
 const unlockWordingPreviousDoGet = doGet;
 
@@ -2833,7 +2833,7 @@ doGet = function () {
       '</body>',
       wordingScript + '</body>'
     )
-  ).setTitle('Potato Survival v1.9');
+  ).setTitle('Potato Survival');
 };
 const fullNewsPreviousDoGet = doGet;
 
@@ -2997,7 +2997,7 @@ doGet = function () {
       '</body>',
       newsUpdate + '</body>'
     )
-  ).setTitle('Potato Survival v1.9');
+  ).setTitle('Potato Survival');
 };
 const enemyVisualsPreviousDoGet = doGet;
 
@@ -3435,7 +3435,7 @@ doGet = function () {
       '</body>',
       enemyVisualsScript + '</body>'
     )
-  ).setTitle('Potato Survival v1.9');
+  ).setTitle('Potato Survival');
 };
 const moreEnemiesPreviousDoGet = doGet;
 
@@ -3895,7 +3895,7 @@ doGet = function () {
       '</body>',
       moreEnemiesScript + '</body>'
     )
-  ).setTitle('Potato Survival v1.9');
+  ).setTitle('Potato Survival');
 };
 const projectileEnemyPreviousDoGet = doGet;
 
@@ -4304,7 +4304,7 @@ doGet = function () {
       '</body>',
       projectileEnemyScript + '</body>'
     )
-  ).setTitle('Potato Survival v1.9');
+  ).setTitle('Potato Survival');
 };
 const steadyEnemyStatsPreviousDoGet = doGet;
 
@@ -4389,7 +4389,7 @@ doGet = function () {
       '</body>',
       steadyStatsScript + '</body>'
     )
-  ).setTitle('Potato Survival v1.9');
+  ).setTitle('Potato Survival');
 };
 const fullscreenPreviousDoGet = doGet;
 
@@ -4799,7 +4799,7 @@ doGet = function () {
       '</body>',
       announcementsScript + '</body>'
     )
-  ).setTitle('Potato Survival v1.9');
+  ).setTitle('Potato Survival');
 };
 const cyclingBackgroundPreviousDoGet = doGet;
 
@@ -4887,7 +4887,7 @@ doGet = function () {
       '</body>',
       backgroundScript + '</body>'
     )
-  ).setTitle('Potato Survival v1.9');
+  ).setTitle('Potato Survival');
 };
 const fullscreenStatsPreviousDoGet = doGet;
 
@@ -4972,7 +4972,7 @@ doGet = function () {
       '</body>',
       fullscreenStatsScript + '</body>'
     )
-  ).setTitle('Potato Survival v1.9');
+  ).setTitle('Potato Survival');
 };
 const fillMapFullscreenPreviousDoGet = doGet;
 
@@ -5071,7 +5071,7 @@ doGet = function () {
 
   return HtmlService.createHtmlOutput(
     html.replace('</body>', fullscreenFix + '</body>')
-  ).setTitle('Potato Survival v1.9');
+  ).setTitle('Potato Survival');
 };
 const fittedStatsPreviousDoGet = doGet;
 
@@ -5095,7 +5095,7 @@ doGet = function () {
       '</body>',
       style + '</body>'
     )
-  ).setTitle('Potato Survival v1.9');
+  ).setTitle('Potato Survival');
 };
 const higherResolutionPreviousDoGet = doGet;
 
@@ -5240,7 +5240,7 @@ doGet = function () {
       '</body>',
       resolutionScript + '</body>'
     )
-  ).setTitle('Potato Survival v1.9');
+  ).setTitle('Potato Survival');
 };
 const decorationCollisionPreviousDoGet = doGet;
 
@@ -5632,7 +5632,7 @@ doGet = function () {
 
   return HtmlService.createHtmlOutput(
     page.getContent().replace('</body>', addon + '</body>')
-  ).setTitle('Potato Survival v1.9');
+  ).setTitle('Potato Survival');
 };
 // ===== POTATO ADMIN DASHBOARD =====
 // Password belongs in Script Properties, NOT in this code.
@@ -8748,7 +8748,7 @@ doGet = function () {
   );
 
   return HtmlService.createHtmlOutput(html)
-    .setTitle('Potato Survival v1.9');
+    .setTitle('Potato Survival');
 };
 const smallerStatsPreviousDoGet = doGet;
 
@@ -8777,7 +8777,7 @@ doGet = function () {
 
   return HtmlService.createHtmlOutput(
     page.getContent().replace('</body>', styles + '</body>')
-  ).setTitle('Potato Survival v1.9');
+  ).setTitle('Potato Survival');
 };
 const saveRewardCheckPreviousDoGet = doGet;
 
@@ -8888,7 +8888,7 @@ doGet = function () {
 
   return HtmlService.createHtmlOutput(
     page.getContent().replace('</body>', addon + '</body>')
-  ).setTitle('Potato Survival v1.9');
+  ).setTitle('Potato Survival');
 };
 const isolatedSaveRewardsPreviousDoGet = doGet;
 
@@ -9065,7 +9065,7 @@ doGet = function () {
 
   return HtmlService.createHtmlOutput(
     page.getContent().replace('</body>', addon + '</body>')
-  ).setTitle('Potato Survival v1.9');
+  ).setTitle('Potato Survival');
 };
 // ===== FOUR-BOSS EXPANSION =====
 // Append ONCE at the bottom of Code.gs.
@@ -10305,7 +10305,7 @@ doGet = function () {
 
   return HtmlService.createHtmlOutput(
     html.replace('</body>', addon + '</body>')
-  ).setTitle('Potato Survival v1.9');
+  ).setTitle('Potato Survival');
 };
 // ===== HARD MODE + 150 LUCK CAP =====
 // Append ONCE at the bottom of Code.gs.
@@ -11784,7 +11784,7 @@ doGet = function () {
 
   return HtmlService.createHtmlOutput(
     page.getContent().replace('</body>', script + '</body>')
-  ).setTitle('Potato Survival v1.9');
+  ).setTitle('Potato Survival');
 };
 // ===== PLAY → MAP + REWARDS → SAVE CODE → START =====
 
@@ -12679,7 +12679,7 @@ doGet = function () {
   );
 
   return HtmlService.createHtmlOutput(html)
-    .setTitle('Potato Survival v1.9');
+    .setTitle('Potato Survival');
 };
 // ===== LOAD AN EXISTING HARD MODE SAVE =====
 
@@ -12890,7 +12890,7 @@ doGet = function () {
   );
 
   return HtmlService.createHtmlOutput(html)
-    .setTitle('Potato Survival v1.9');
+    .setTitle('Potato Survival');
 };
 // ===== LEGENDARY SHOTGUN EXPANSION =====
 // Append ONCE after your existing weapon add-ons.
@@ -13385,7 +13385,7 @@ doGet = function () {
 
   return HtmlService.createHtmlOutput(
     page.getContent().replace('</body>', script + '</body>')
-  ).setTitle('Potato Survival v1.9');
+  ).setTitle('Potato Survival');
 };
 // ===== FIRST BOSS HEALTH =====
 
@@ -14122,7 +14122,7 @@ doGet = function () {
 
   return HtmlService.createHtmlOutput(
     html.replace('</body>', notice + '</body>')
-  ).setTitle('Potato Survival v1.9');
+  ).setTitle('Potato Survival');
 };
 // ===== MOVE WEAPONS FARTHER OUT =====
 
@@ -14149,7 +14149,7 @@ doGet = function () {
   );
 
   return HtmlService.createHtmlOutput(html)
-    .setTitle('Potato Survival v1.9');
+    .setTitle('Potato Survival');
 };
 // ===== ENHANCED MAP GRAPHICS =====
 
@@ -15965,5 +15965,554 @@ doGet = function () {
   );
 
   return HtmlService.createHtmlOutput(html)
-    .setTitle('Potato Survival v1.9');
+    .setTitle('Potato Survival');
 };
+      function doGet() {
+  const visualUpgrade = `
+<style>
+:root {
+  color-scheme: dark;
+  --gold: #f5ce78;
+  --mint: #a2e5c0;
+}
+
+body {
+  background: #0b1014;
+  color: #edf3ed;
+  font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+button, input, select {
+  font: inherit;
+}
+
+button {
+  border: 1px solid #ffffff12;
+  border-radius: 12px;
+  padding: 12px 18px;
+  background: #25363b;
+  color: #edf3ed;
+  font-weight: 650;
+  transition: background .18s, transform .18s, box-shadow .18s;
+}
+
+button:hover:not(:disabled) {
+  filter: none;
+  background: #31484b;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px #0003;
+}
+
+button:active:not(:disabled) {
+  transform: translateY(0);
+}
+
+button:focus-visible,
+input:focus-visible,
+select:focus-visible {
+  outline: 3px solid var(--mint);
+  outline-offset: 4px;
+}
+
+#menu {
+  padding: 56px 24px 32px;
+  background:
+    radial-gradient(ellipse at 15% 0%, #48765324, transparent 45%),
+    radial-gradient(ellipse at 90% 22%, #b0853620, transparent 40%),
+    #0b1014;
+}
+
+.menuWrap {
+  max-width: 1160px;
+}
+
+.badge {
+  font-size: 10px;
+  letter-spacing: 2px;
+  font-weight: 700;
+  padding: 9px 16px;
+  border-color: #a2e5c022;
+  background: #a2e5c008;
+  color: var(--mint);
+}
+
+.heroPotato {
+  font-size: 80px;
+  margin: 22px 0 8px;
+  filter: drop-shadow(0 16px 26px #f5ce7825);
+}
+
+.heroTitle {
+  font-size: clamp(32px, 5.5vw, 64px);
+  line-height: 1.1;
+  font-weight: 900;
+  letter-spacing: -2px;
+  color: #f6e4bd;
+  text-shadow: 0 3px 0 #76582855;
+}
+
+.heroSub {
+  font-size: 15px;
+  line-height: 1.8;
+  color: #9baea5;
+  margin: 18px auto 36px;
+}
+
+.menuGrid {
+  grid-template-columns: minmax(0, 1.8fr) minmax(0, 1fr);
+  gap: 20px;
+}
+
+.menuPanel, .panel {
+  background: linear-gradient(145deg, #19252bf5, #111b20f5);
+  border: 1px solid #ffffff12;
+  box-shadow: 0 16px 48px #0002, inset 0 1px 0 #ffffff05;
+  border-radius: 22px;
+  padding: 28px;
+}
+
+.menuPanel h2 {
+  font-size: 19px;
+  letter-spacing: -.4px;
+  margin-bottom: 12px;
+}
+
+.note {
+  font-size: 12px;
+  line-height: 1.8;
+  color: #9baea5;
+}
+
+.section {
+  margin-top: 22px;
+}
+
+.maps {
+  gap: 12px;
+  margin: 22px 0 18px;
+}
+
+.mapCard {
+  border: 1px solid #ffffff16;
+  border-radius: 14px;
+  background: #111b20;
+  box-shadow: 0 4px 12px #0002;
+}
+
+.mapCard:hover:not(:disabled) {
+  background: #1c2b31;
+  transform: translateY(-4px);
+  box-shadow: 0 12px 24px #0004;
+}
+
+.mapCard.selected {
+  border-color: var(--gold);
+  box-shadow: 0 0 0 2px #f5ce7820, 0 8px 24px #0003;
+}
+
+.preview {
+  height: 100px;
+  font-size: 40px;
+  position: relative;
+  text-shadow: 0 6px 12px #0005;
+}
+
+.preview::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background:
+    radial-gradient(ellipse at 30% 15%, #ffffff20, transparent 65%),
+    linear-gradient(0deg, #0002, transparent 55%);
+}
+
+.mapLabel {
+  font-size: 11px;
+  font-weight: 650;
+  padding: 12px 10px;
+  gap: 5px;
+  align-items: center;
+  min-height: 44px;
+}
+
+.check {
+  color: var(--gold);
+}
+
+.primary {
+  margin-top: 22px;
+  padding: 17px;
+  font-size: 15px;
+  background: linear-gradient(135deg, #fce2a3, #e9b75c);
+  color: #322619;
+  border-color: #ffe9b760;
+  box-shadow: 0 4px 0 #8b632b, 0 10px 24px #e9b75c16;
+}
+
+.primary:hover:not(:disabled) {
+  background: linear-gradient(135deg, #ffecbd, #f3c66d);
+  box-shadow: 0 5px 0 #8b632b, 0 14px 28px #e9b75c25;
+}
+
+input, select {
+  background: #0b1419;
+  border: 1px solid #ffffff1c;
+  border-radius: 12px;
+  padding: 14px;
+  color: #edf3ed;
+  font-size: 14px;
+  box-shadow: inset 0 2px 6px #0002;
+}
+
+input::placeholder {
+  color: #738780;
+  font-size: 11px;
+  letter-spacing: 1.5px;
+}
+
+input:focus {
+  outline: 2px solid var(--mint);
+  outline-offset: 2px;
+}
+
+#loadCode, #importCode {
+  margin: 14px 0 10px;
+  font-size: 15px;
+}
+
+.loadAction, .lock {
+  background: #9edab8;
+  color: #153529;
+  border-color: #c5f7db44;
+}
+
+.loadAction:hover:not(:disabled),
+.lock:hover:not(:disabled) {
+  background: #b4ebcb;
+}
+
+.divider {
+  background: #ffffff0c;
+  margin: 24px 0;
+}
+
+#rewardCode {
+  width: min(100%, 340px);
+  margin-right: 6px;
+}
+
+#achievementList {
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.achievement {
+  background: #0e181d;
+  border: 1px solid #ffffff0c;
+  border-radius: 15px;
+  padding: 18px;
+}
+
+.achievement .icon {
+  font-size: 25px;
+  opacity: .5;
+}
+
+.achievement h3 {
+  font-size: 13px;
+}
+
+.achievement .note {
+  font-size: 11px;
+}
+
+.achievement .status {
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  color: #7e9488;
+}
+
+.achievement.earned {
+  border-color: #f5ce7840;
+  background: linear-gradient(135deg, #f5ce7810, #121c20);
+}
+
+.achievement.earned .icon {
+  opacity: 1;
+}
+
+.achievement.earned .status {
+  color: var(--gold);
+}
+
+.customGrid {
+  gap: 30px;
+  margin-top: 20px;
+}
+
+#potatoPreview {
+  background:
+    radial-gradient(ellipse at center, #a2e5c015, transparent 70%),
+    #0c161b;
+  border: 1px solid #ffffff12;
+  border-radius: 18px;
+}
+
+.customGroup {
+  border-color: #ffffff0a;
+  padding-bottom: 16px;
+}
+
+.customGroup h4 {
+  font-size: 12px;
+  color: #bacbc1;
+}
+
+.choice {
+  font-size: 11px;
+  padding: 9px 12px;
+  background: #213137;
+  border: 1px solid #ffffff0c;
+  margin: 4px;
+}
+
+.choice.active {
+  border-color: var(--gold);
+  background: #f5ce7812;
+  color: #fce2a3;
+  box-shadow: 0 0 0 1px #f5ce7820;
+}
+
+.swatch {
+  box-shadow: inset 0 0 0 1px #ffffff30;
+}
+
+#gameArea {
+  padding: 20px 12px 32px;
+  background:
+    radial-gradient(ellipse at 50% 0%, #28463840, transparent 65%),
+    #0b1014;
+  min-height: 100vh;
+}
+
+#gameArea > h2 {
+  font-size: 20px;
+  letter-spacing: -.7px;
+  color: #f6e4bd;
+  margin: 4px 0 14px;
+}
+
+#hud {
+  max-width: 850px;
+  margin: 0 auto 12px;
+  padding: 14px 20px;
+  border: 1px solid #ffffff12;
+  border-radius: 14px;
+  background: #142127;
+  line-height: 1.9;
+  font-size: 13px;
+  font-variant-numeric: tabular-nums;
+}
+
+#gameArea > button {
+  font-size: 12px;
+  padding: 10px 14px;
+  margin: 4px;
+}
+
+canvas#game {
+  border: 1px solid #a2e5c033;
+  border-radius: 16px;
+  box-shadow: 0 0 0 6px #ffffff03, 0 24px 64px #0006;
+  margin: 20px auto;
+}
+
+.card {
+  border: 1px solid var(--rarity, #627e6d);
+  border-top-width: 3px;
+  background: linear-gradient(145deg, #1c2b32, #101a20);
+  border-radius: 16px;
+  padding: 22px;
+  box-shadow: 0 8px 24px #0002;
+}
+
+.card h3 {
+  font-size: 17px;
+  letter-spacing: -.4px;
+}
+
+.card p {
+  font-size: 12px;
+  color: #9baea5;
+}
+
+.card.locked {
+  background: linear-gradient(145deg, #233b31, #13251f);
+}
+
+.rarity {
+  font-size: 9px;
+  font-weight: 800;
+  letter-spacing: 2px;
+}
+
+.wallet {
+  background: #a2e5c00d;
+  border-color: #a2e5c02e;
+  color: var(--mint);
+  font-variant-numeric: tabular-nums;
+  font-size: 18px;
+}
+
+#luckPanel {
+  border: 1px solid #ff981f77;
+}
+
+#loading {
+  background: #0b1014f5;
+  backdrop-filter: blur(12px);
+}
+
+#loading .panel {
+  width: min(90vw, 440px);
+  padding: 36px;
+}
+
+#loading h1 {
+  font-size: 24px;
+}
+
+.track {
+  height: 8px;
+  background: #ffffff08;
+  margin-top: 28px;
+}
+
+#bar {
+  background: linear-gradient(90deg, #70b991, #c5efbf);
+  border-radius: 10px;
+  transition: width .2s;
+}
+
+#toast {
+  padding: 16px 24px;
+  background: #172b22f5;
+  border: 1px solid #f5ce7870;
+  border-radius: 14px;
+  box-shadow: 0 12px 36px #0005;
+  color: #f6e4bd;
+  font-size: 13px;
+  backdrop-filter: blur(12px);
+}
+
+#message:empty,
+#saveStatus:empty,
+#unlockNotice:empty,
+#importStatus:empty,
+#rewardStatus:empty {
+  display: none;
+}
+
+@media (min-width: 1050px) {
+  .achievements {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 850px) {
+  .menuGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .heroTitle {
+    letter-spacing: -1.5px;
+  }
+}
+
+@media (max-width: 650px) {
+  #menu {
+    padding: 32px 16px 24px;
+  }
+
+  .menuPanel, .panel {
+    padding: 20px;
+    border-radius: 18px;
+  }
+
+  .maps {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .preview {
+    height: 92px;
+  }
+
+  .mapLabel {
+    font-size: 12px;
+  }
+
+  .heroPotato {
+    font-size: 64px;
+  }
+
+  .badge {
+    font-size: 8px;
+    letter-spacing: 1px;
+  }
+
+  .cards, .customGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .achievements {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .achievement {
+    padding: 12px;
+  }
+
+  .previewColumn {
+    position: static;
+  }
+
+  #rewardCode {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .shopHead {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  #hud {
+    padding: 12px;
+    font-size: 12px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation: none !important;
+    transition: none !important;
+    scroll-behavior: auto !important;
+  }
+
+  button:hover:not(:disabled),
+  .mapCard:hover:not(:disabled) {
+    transform: none;
+  }
+}
+</style>`;
+
+  return HtmlService
+    .createHtmlOutput(
+      POTATO_HTML.replace("</head>", visualUpgrade + "</head>")
+    )
+    .setTitle("Potato Survival");
+}
+      
